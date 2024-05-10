@@ -1,0 +1,9 @@
+body{
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+    background-image: radial-gradient(circle, hsl(0, 0%, 100%), #808080);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}

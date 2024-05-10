@@ -1,0 +1,45 @@
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 5%;
+}
+.slider-wrapper{
+    position: relative;
+    max-width: 48rem;
+}
+.slider{
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    border-radius: 10px;
+    height: 100%;
+}
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+}
+.slider-button{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    cursor: pointer;
+}
+.slider-button a{
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    opacity: .75;
+    transition: opacity ease 250ms;
+}
+.slider-button a:hover{
+    opacity: 1;
+}

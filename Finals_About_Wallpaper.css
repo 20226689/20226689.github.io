@@ -1,0 +1,12 @@
+body{
+    position: relative;
+    background-position: center;
+    background-image: radial-gradient(circle, #ffffff, #808080);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    height: 100%;
+}
+::-webkit-scrollbar{
+    display: none;
+}
