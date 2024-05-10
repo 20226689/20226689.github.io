@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Finals_Shop.css">
+    <link rel="stylesheet" href="../css/Finals_Naviagtion_Shop.css">
+    <script src="https://kit.fontawesome.com/c93f104351.js" crossorigin="anonymous"></script>
+    <script defer src="../js/Finals_Shop_SearchEngine.js"></script>
+    <title>Shop Page</title>
+</head>
+<body>
+    
+    <nav>
+        <div class="logo">Logo</div>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Finals_About.html">About</a></li>
+            <li><a href="Finals_Shop.html">Shop</a></li>
+            <li><a href="Finals_Contacts.html">Contact Us</a></li>
+            <li><a href="Finals_Account.html">Accounts</a></li>
+        </ul>
+        <div class="search">
+            <form>
+                <input class="navinput" type="text" placeholder="Quick Search...">
+                <button class="navbutton" type="submit"><i class="fa-solid fa-magnifying-glass navglass"></i></button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidehead">
+                <hr style="margin: 15px 0; border: 1px solid #eee;">
+            </div>
+            <div class="sidebody" style="height: 69vh;">
+                <div class="searhcbar">
+                    <input class="sidebodysearch" placeholder="Search..." id="searchBar" name="searchBar" type="text">
+                    <i class="fa-solid fa-magnifying-glass glass"></i>
+                </div>
+            </div>
+            <div class="sidefoot">
+                <hr style="margin: 15px; border: 1px solid #eee;">
+                <div class="social">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="data">
+            <div class="header">
+                <p>Garbage For Sale</p>
+            </div>
+            <div class="body">
+                <div id="root"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
